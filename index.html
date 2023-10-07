@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BodyBlitz - Your Fitness Companion</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="bb.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <h1 class="appTitle">BodyBlitz</h1>
+    </header>
+
+    <nav>
+        <ul class="menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="workouts.html">Workouts</a></li>
+            <li><a href="nutrition.html">Nutrition</a></li>
+            <li><a href="progress.html">Progress</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="featuredWorkout">
+            <h2>Featured Workout</h2>
+            <p>Get started with our intense full-body workout!</p>
+            <a href="workout.html" class="startWorkoutBtn">Start Workout</a>
+        </section>
+
+        <section class="nutritionTips">
+            <h2>Nutrition Tips</h2>
+            <ul>
+                <li>Stay hydrated by drinking plenty of water.</li>
+                <li>Consume a balanced diet rich in fruits and vegetables.</li>
+                <li>Include lean protein sources in your meals.</li>
+                <li>Avoid excessive sugar and processed foods.</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 BodyBlitz Fitness App</p>
+    </footer>
+</body>
+</html>
+<style>
+    /* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+header {
+    text-align: center;
+    color: rgb(220, 8, 8);
+
+}
+.menu a {
+    color: white;
+    text-decoration: none; /* Remove underlines from links */
+}
+
+.menu a:hover {
+    text-decoration: underline; /* Add underline on hover if desired */
+}
+.appTitle {
+    font-size: 36px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+}
+
+
+.featuredWorkout,
+.nutritionTips {
+    background-color: rgb(240, 18, 18);
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-top: 0;
+}
+
+a.startWorkoutBtn {
+    text-decoration: none; /* Remove underline */
+    color: white; /* Set the text color */
+}
+
+
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+</style>

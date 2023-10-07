@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Workout Categories</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Workout Categories</h1>
+    </header>
+
+    <main>
+        <a href="biceps.html" class="workout-category-button">
+            <div class="workout-category">
+                <h2>Biceps</h2>
+            </div>
+        </a>
+    
+        <a href="triceps.html" class="workout-category-button">
+            <div class="workout-category">
+                <h2>Triceps</h2>
+            </div>
+        </a>
+    
+        <a href="chest.html" class="workout-category-button">
+            <div class="workout-category">
+                <h2>Chest</h2>
+            </div>
+        </a>
+        <a href="back.html" class="workout-category-button">
+            <div class="workout-category">
+                <h2> Back</h2>
+            </div>
+        </a>
+        <a href="shoulders.html" class="workout-category-button">
+            <div class="workout-category">
+                <h2>Shoulders</h2>
+            </div>
+        </a>
+        <a href="legs.html" class="workout-category-button">
+            <div class="workout-category">
+                <h2>Legs</h2>
+            </div>
+        </a>
+        <a href="abs.html" class="workout-category-button">
+            <div class="workout-category">
+                <h2>Abs</h2>
+            </div>
+        </a>
+        
+        
+    </main>
+    
+    <footer>
+        <p>&copy; 2023 Fitness App</p>
+    </footer>
+</body>
+</html>
+<style>
+    /* styles.css */
+body {
+    background-color: black;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: red;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    color: red;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.workout-category-button {
+    text-decoration: none; /* Remove underline */
+    background-color: red; /* Button background color */
+    color: white; /* Button text color */
+    border: none; /* Remove border */
+    border-radius: 15px; /* Add rounded corners */
+    text-align: center;
+    padding: 20px;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.3s ease; /* Add hover effect */
+}
+
+.workout-category-button:hover {
+    background-color: darkred; /* Change color on hover */
+}
+
+h2 {
+    font-size: 24px;
+    margin: 0;
+}
+
+footer {
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 10px;
+}
+
+</style>
